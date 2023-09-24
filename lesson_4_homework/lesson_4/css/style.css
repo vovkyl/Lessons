@@ -1,0 +1,67 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+h1 {
+    color: rgb(178, 231, 19);
+}
+
+.item {
+    color: green;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#number1 {
+    color: blue;
+}
+
+#number2 {
+    color: brown;
+}
+
+span.firstp {
+    color: red;
+}
+
+.list .link {
+    color: aqua;
+}
+
+.list>.about {
+    color: violet;
+}
+
+div,
+.description {
+    color: chartreuse;
+}
+
+[class*="__desc"] {
+    color: grey;
+}
+
+[href="https://www.facebook.com"] {
+    color: red;
+}
+
+[href="https://www.youtube.com"] {
+    color: blue;
+}
+
+[href="https://www.Instagram.com"] {
+    color: green;
+}
+
+[title="this facebook"]::after {
+    content: "$";
+    color: black;
+
+}
+
+[class^="list__item"] {
+    border: 1px solid black;
+}
