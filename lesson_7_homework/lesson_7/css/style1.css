@@ -1,0 +1,89 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+    margin: 50px;
+}
+
+.container {
+    max-width: 830px;
+    font-family: Inter;
+    font-size: 18px;
+    color: #7D7D7D;
+    padding: 15px 50px;
+    border: 5px solid red;
+    border-radius: 20px;
+    box-shadow: -20px -20px 5px #30312e;
+}
+
+.content {
+    border: 2px solid #3300ff;
+    border-radius: 10px 10px 5px 5px;
+}
+
+h1 {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.27;
+    margin-bottom: 13px;
+
+}
+
+.title__description,
+.subtitle__discription,
+ul,
+ol {
+    margin-bottom: 35px;
+    line-height: 1.46;
+
+
+}
+
+li {
+    font-weight: 500;
+    line-height: 1.46;
+    margin-left: 32px;
+}
+
+p {
+    line-height: 1.46;
+}
+
+ul,
+ol {
+    outline: 5px solid green;
+    border-radius: 15px;
+}
+
+li:hover {
+    background: #d70f0f;
+    opacity: 0.5;
+}
+
+strong {
+    color: #d70f0f;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+    border: 5px solid #3300ff;
+    font-size: 25px;
+    background: grey;
+}
+
+.title__description {
+    border: 3px dotted yellow;
+    box-shadow: 10px 10px 5px #000;
+}
+
+.subtitle__discription:hover {
+    visibility: hidden;
+
+}

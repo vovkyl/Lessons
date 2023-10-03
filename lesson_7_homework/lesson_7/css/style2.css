@@ -1,0 +1,96 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+    margin: 50px;
+}
+
+.container {
+    widows: 1920px;
+    padding: 50px 100px;
+}
+
+
+
+.content__jewerly {
+    width: 503px;
+    margin-right: 75px;
+    display: inline-block;
+    padding: 70px 0px;
+
+
+}
+
+.content__jewerly_text {
+    color: #D58417;
+    font-family: Cormorant Infant;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+
+}
+
+.content__jewerly_title {
+    color: #000;
+    font-family: Cormorant Infant;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+.content__jewerly_discription {
+    color: #606060;
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    width: 498px;
+
+}
+
+.content__jewerly_image {
+    width: 530px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.first__image {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    margin-right: 30px;
+    width: 177px;
+    height: 336px;
+    box-sizing: border-box;
+}
+
+.image1 {
+    border-radius: 235px;
+    margin: 14px -10px;
+
+}
+
+.second__image {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    box-sizing: border-box;
+    width: 307px;
+    height: 500px;
+}
+
+.image2 {
+    border-radius: 235px;
+    /* border: 1px solid #502203; */
+    margin: 19px -11px;
+
+
+}

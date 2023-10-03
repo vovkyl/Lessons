@@ -1,0 +1,100 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	margin: 0 auto;
+}
+
+.container {
+	width: 1920px;
+	font-family: Inter;
+	font-size: 18px;
+	padding: 50px 350px;
+}
+
+.content__image {
+	margin-right: 6px;
+}
+
+.content__title {
+	text-align: center;
+}
+
+.content__title_text {
+	display: inline-block;
+	color: #37393F;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+h1 {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 68.5px;
+}
+
+h2 {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 11px;
+}
+
+.hero__text {
+	color: #7D7D7D;
+	line-height: 1.46;
+	margin-bottom: 24px;
+}
+
+.text__first {
+	margin-bottom: 32px;
+}
+
+.photography {
+	margin-bottom: 11px;
+}
+
+h3 {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+span {
+	color: #40DDB6;
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.big {
+	margin-bottom: 100px;
+}
+
+.text__blue {
+	color: #40DDB6;
+	line-height: 1.46
+}
+
+a {
+	color: #40DDB6;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.46;
+}
+
+.end {
+	margin-top: 100px;
+}
