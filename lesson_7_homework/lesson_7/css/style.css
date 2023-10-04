@@ -31,9 +31,15 @@ body {
 	margin-bottom: 16px;
 }
 
+h1,
+h2,
+h3,
+span {
+	font-family: Poppins;
+}
+
 h1 {
 	color: #37393F;
-	font-family: Poppins;
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -42,7 +48,6 @@ h1 {
 
 h2 {
 	color: #37393F;
-	font-family: Poppins;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -65,7 +70,6 @@ h2 {
 
 h3 {
 	color: #37393F;
-	font-family: Poppins;
 	font-size: 30px;
 	font-weight: 700;
 	margin-bottom: 8px;
@@ -73,7 +77,6 @@ h3 {
 
 span {
 	color: #40DDB6;
-	font-family: Poppins;
 	font-size: 30px;
 	font-weight: 400;
 }
@@ -89,7 +92,6 @@ span {
 
 a {
 	color: #40DDB6;
-	font-family: Inter;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 1.46;

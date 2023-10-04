@@ -21,8 +21,6 @@ body {
     margin-right: 75px;
     display: inline-block;
     padding: 70px 0px;
-
-
 }
 
 .content__jewerly_text {
@@ -32,7 +30,6 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 27px;
-
 }
 
 .content__jewerly_title {
@@ -40,7 +37,6 @@ body {
     font-family: Cormorant Infant;
     font-size: 64px;
     font-weight: 700;
-
 }
 
 .content__jewerly_discription {
@@ -50,7 +46,6 @@ body {
     font-weight: 700;
     line-height: 1.4;
     width: 498px;
-
 }
 
 .content__jewerly_image {
@@ -74,7 +69,6 @@ body {
 .image1 {
     border-radius: 235px;
     margin: 14px -10px;
-
 }
 
 .second__image {
@@ -91,6 +85,4 @@ body {
     border-radius: 235px;
     /* border: 1px solid #502203; */
     margin: 19px -11px;
-
-
 }
