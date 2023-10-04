@@ -1,0 +1,52 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+    width: 1440px;
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.wrapper__Euphoria {
+    max-width: 1240px;
+    color: #807D7E;
+    font-family: Causten;
+}
+
+.container__online {
+    padding-left: 21px;
+}
+
+.title__Euphoria {
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 0.33;
+    letter-spacing: 0.56px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #807D7E;
+    font-family: Core Sans C;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.33;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+
+.text {
+    margin-bottom: 20px;
+    font-family: Causten;
+}
+
+span {
+    font-weight: 600;
+}
