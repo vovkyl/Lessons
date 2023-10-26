@@ -373,6 +373,7 @@ a:active {
 	max-width: 1600px;
 	background: #fff;
 	margin: 0 auto;
+	margin-bottom: 150px;
 }
 
 .card__left {
@@ -445,5 +446,175 @@ a:active {
 
 .price::before {
 	content: "$";
+
+}
+
+.game {
+	max-width: 500px;
+	height: 500px;
+	background-color: red;
+	margin: 0 auto;
+}
+
+.field__game {
+	margin-bottom: 150px;
+}
+
+
+
+.field__game1 {
+
+	width: 70px;
+	height: 30px;
+	border: 2px solid greenyellow;
+	text-align: center;
+	padding: 5px;
+
+	background-color: grey;
+
+
+
+}
+
+.field__game1:hover {
+	font-size: 20px;
+	color: #FFF;
+	opacity: 0.5;
+	background-color: #528205;
+	border: 2px dotted #fff;
+
+}
+
+.field__game2 {
+
+	width: 30px;
+	height: 100px;
+	background-color: chartreuse;
+	visibility: hidden;
+}
+
+.field__game1:hover~.field__game2,
+.field__game2:hover {
+	visibility: visible;
+}
+
+.field__game3 {
+
+
+	width: 150px;
+	height: 30px;
+	background-color: chartreuse;
+	visibility: hidden;
+}
+
+.field__game2:hover~.field__game3,
+.field__game3:hover {
+	visibility: visible;
+}
+
+.field__game4 {
+
+
+	width: 30px;
+	height: 50px;
+	background-color: chartreuse;
+	margin: 0 0 0 120px;
+	visibility: hidden;
+}
+
+.field__game3:hover~.field__game4,
+.field__game4:hover {
+	visibility: visible;
+}
+
+.field__game5 {
+	width: 150px;
+	height: 30px;
+	background-color: chartreuse;
+	margin: 0 0 0 120px;
+	visibility: hidden;
+}
+
+.field__game4:hover~.field__game5,
+.field__game5:hover {
+	visibility: visible;
+}
+
+.field__game6 {
+	width: 30px;
+	height: 130px;
+	background-color: chartreuse;
+	margin: 0 0 0 240px;
+	visibility: hidden;
+}
+
+.field__game5:hover~.field__game6,
+.field__game6:hover {
+	visibility: visible;
+}
+
+
+.field__game7 {
+	width: 150px;
+	height: 30px;
+	background-color: chartreuse;
+	margin: 0 0 0 120px;
+	visibility: hidden;
+}
+
+.field__game6:hover~.field__game7,
+.field__game7:hover {
+	visibility: visible;
+}
+
+.field__game8 {
+	width: 30px;
+	height: 70px;
+	background-color: chartreuse;
+	margin: 0 0 0 120px;
+	visibility: hidden;
+}
+
+.field__game7:hover~.field__game8,
+.field__game8:hover {
+	visibility: visible;
+}
+
+.field__game9 {
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	border: 2px solid greenyellow;
+	text-align: center;
+	padding: 5px;
+	background-color: grey;
+	margin-left: 100px;
+	visibility: hidden;
+}
+
+.field__game8:hover~.field__game9,
+.field__game9:hover {
+	visibility: visible;
+}
+
+img {
+	visibility: hidden;
+}
+
+.field__game9:hover~img,
+img:hover {
+	visibility: visible;
+	margin-left: 200px;
+	transition: 10.0s;
+
+}
+
+span {
+	visibility: hidden;
+}
+
+.field__game9:hover~span {
+	visibility: visible;
+	font-size: 25px;
 
 }
