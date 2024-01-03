@@ -1,0 +1,541 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	background-color: #333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+}
+
+.header {
+
+	background-color: rgb(104, 51, 51);
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+
+}
+
+[class*="__container"] {
+	width: 1230px;
+	margin: 0 auto;
+	padding: 15px 0 15px 0;
+
+}
+
+.header__container {
+	text-align: center;
+	padding: 20px;
+
+}
+
+.header-title {
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-right: 150px;
+}
+
+.header-list {
+	display: inline-block;
+}
+
+.header-item {}
+
+.header-link {}
+
+.hero {
+	margin-top: 150px;
+}
+
+.hero__container {
+	font-size: 0;
+}
+
+.card {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: rgb(85, 43, 43);
+	margin: 0 20px 20px 0;
+	font-size: 20px;
+
+
+
+
+}
+
+.card-transform {
+	width: 100%;
+	height: 100%;
+	background-color: blueviolet;
+	padding: 15px;
+}
+
+
+
+
+.card:hover .card-transform {
+	transform: translate(20px, -20px);
+}
+
+.card-scale {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(80, 11, 145);
+	padding: 15px;
+}
+
+.card:hover .card-scale {
+	transform: scale(0.5)
+}
+
+.card-rotate {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(133, 111, 155);
+	padding: 15px;
+}
+
+.card:hover .card-rotate {
+	transform: rotate(20deg);
+}
+
+.card-skew {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(133, 111, 155);
+	padding: 15px;
+}
+
+.card:hover .card-skew {
+	transform: skew(-10deg, 40deg);
+}
+
+.block__container {
+	font-size: 0;
+
+}
+
+.block {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	vertical-align: top;
+
+
+}
+
+.block__transform {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(106, 53, 85);
+	padding: 15px;
+
+
+}
+
+.block:hover .block__transform {
+	transform: translate(20px, 20px);
+}
+
+.block__scale {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(91, 167, 53);
+	padding: 15px;
+}
+
+.block:hover .block__scale {
+	transform: scale(0.7)
+}
+
+.block__rotate {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(177, 202, 36);
+	padding: 15px;
+
+}
+
+.block:hover .block__rotate {
+	transform: rotate(20deg)
+}
+
+.block__rotate2 {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(177, 202, 36);
+	padding: 15px;
+	transition: all 0.8s;
+}
+
+.block:hover .block__rotate2 {
+	transform: rotate(360deg)
+}
+
+.block__skew {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(197, 107, 24);
+	padding: 15px;
+}
+
+.block:hover .block__skew {
+	transform: skew(20deg, 40deg)
+}
+
+.block__matrix {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(196, 42, 25);
+	padding: 15px;
+	transition: all 0.5s;
+
+}
+
+.block:hover .block__matrix {
+	transform: translate(15px, 15px) rotate(360deg)
+}
+
+.skew {
+	font-size: 20px;
+	padding: 20px;
+	position: relative;
+	vertical-align: top;
+
+}
+
+.skew span {
+	position: relative;
+}
+
+.skew::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: blue;
+	transform: skew(-20deg, 0);
+}
+
+.skew:hover::before {
+	transform: skew(20deg, 0);
+}
+
+.block3d {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+
+	perspective: 150px;
+	perspective-origin: center;
+	vertical-align: top;
+	margin-right: 20px;
+
+}
+
+.block3d__rotate {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(208, 25, 186);
+	font-size: 20px;
+	padding: 15px;
+
+
+}
+
+.block3d:hover .block3d__rotate {
+	transform: rotateX(50deg);
+}
+
+.flip {
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.flip__body {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	perspective: 500px;
+
+}
+
+.flip__front,
+.flip__back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.5s;
+
+}
+
+.flip__back {
+	background-color: rgb(197, 30, 111);
+	transform: rotateY(-180deg);
+	backface-visibility: hidden;
+
+}
+
+.flip__front {
+
+	background-color: rgb(29, 29, 169);
+	transform: rotateY(0deg);
+
+}
+
+.flip__body:hover .flip__back {
+	transform: rotateY(0deg);
+}
+
+.flip__body:hover .flip__front {
+	transform: rotateY(-180deg);
+}
+
+/*----------------CAR-------------------- */
+.car {
+
+	overflow: hidden;
+}
+
+.car__container {
+
+	height: 800px;
+	background-color: #fff;
+
+}
+
+.car__container:hover .wheel-circle1 {
+	transform: scale(1.2);
+}
+
+.car__container:hover .car__body-stop {
+	visibility: visible;
+}
+
+.car__container:hover .car__body-ligth {
+	visibility: visible;
+}
+
+.car__container:hover .car__body-glass1rotate {
+	transform: rotate(360deg);
+	visibility: visible;
+}
+
+.car__main {
+	display: inline-block;
+	position: relative;
+	top: 100px;
+	left: 100px;
+
+}
+
+.car__body {
+	display: inline-block;
+	width: 1100px;
+	height: 600px;
+}
+
+.car__body-front {
+	display: inline-block;
+	width: 150px;
+	height: 200px;
+	background-color: yellow;
+	border-radius: 40% 0 0 0;
+	border-bottom-right-radius: ;
+	position: relative;
+	top: 200px;
+	left: 20px;
+}
+
+.car__body-centre {
+	display: inline-block;
+	width: 750px;
+	height: 400px;
+	background-color: yellow;
+	border-radius: 20% 20% 0 0;
+	position: relative;
+	top: 200px;
+	left: -139px;
+}
+
+.car__wheel-left {
+	display: inline-block;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background: #000;
+	position: relative;
+	z-index: 60;
+	top: 220px;
+	left: -40px;
+}
+
+.wheel-circle1 {
+	border: 10px dotted rgb(214, 214, 23);
+	border-radius: 50%;
+	background: #303030;
+	transform: scale(0.95);
+	position: absolute;
+	top: 0;
+	z-index: 61;
+	width: 150px;
+	height: 150px;
+}
+
+.wheel-circle2 {
+	border-radius: 50%;
+	background: #666666;
+	transform: scale(0.80);
+	position: absolute;
+	top: 0;
+	z-index: 62;
+	width: 150px;
+	height: 150px;
+}
+
+.wheel-circle3 {
+	border-radius: 50%;
+	background: #595a5a;
+	transform: scale(0.55);
+	position: absolute;
+	top: 0;
+	z-index: 63;
+	width: 150px;
+	height: 150px;
+}
+
+.wheel-circle4 {
+	border-radius: 50%;
+	background: #010a0a;
+	transform: scale(0.40);
+	position: absolute;
+	top: 0;
+	z-index: 64;
+	width: 150px;
+	height: 150px;
+}
+
+.car__wheel-rigth {
+	display: inline-block;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background: #000;
+	position: relative;
+	top: 72px;
+	left: 700px;
+}
+
+.car__glass {
+	display: inline-block;
+	background-color: yellow;
+	width: 650px;
+	height: 150px;
+	position: relative;
+	top: -150px;
+	left: 50px;
+	z-index: 70;
+	border-radius: 20px 0 0 0;
+
+}
+
+.car__body-glass1 {
+	display: inline-block;
+	background-color: #595a5a;
+	border: 10px solid #000;
+	width: 92px;
+	height: 150px;
+	position: relative;
+	z-index: 70;
+	border-radius: 20px 0 0 0;
+	margin-right: 30px;
+}
+
+.car__body-glass1rotate {
+	background-image: url("/img/icons8-driver-80.png");
+	background-repeat: no-repeat;
+
+
+
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 40%;
+	left: 0;
+	z-index: 70;
+	transition: all 0.8s;
+	visibility: hidden;
+
+}
+
+.car__body-glass2 {
+	display: inline-block;
+	background-color: #595a5a;
+	border: 10px solid #000;
+	width: 92px;
+	height: 150px;
+	position: relative;
+	z-index: 70;
+	margin-right: 5px;
+}
+
+.car__body-glass3 {
+	display: inline-block;
+	background-color: #595a5a;
+	border: 10px solid #000;
+	width: 92px;
+	height: 150px;
+	position: relative;
+	z-index: 70;
+	margin-right: 5px;
+}
+
+.car__body-stop {
+	background-color: red;
+	width: 20px;
+	height: 50px;
+	border-radius: 0 20% 20% 0;
+	position: relative;
+	top: -150px;
+	left: 920px;
+	z-index: 71;
+	visibility: hidden;
+
+}
+
+.car__body-ligth {
+	background-color: rgb(211, 99, 24);
+	width: 20px;
+	height: 50px;
+	border-radius: 20% 0 0 20%;
+	position: relative;
+	top: -150px;
+	left: 2px;
+	z-index: 71;
+	visibility: hidden;
+
+}
